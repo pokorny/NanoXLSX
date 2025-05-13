@@ -18,12 +18,12 @@ namespace NanoXLSX
         /// <summary>
         /// If false, Column width outside range of Worksheet.MIN_COLUMN_WIDTH and Worksheet.MAX_COLUMN_WIDTH will be replaced by MIN or MAX.
         /// </summary>
-		public bool EnforceAllowedColumnWidth { get; set; } = true;
+        public bool EnforceAllowedColumnWidth { get; set; } = true;
 
-		/// <summary>
-		/// If false, Row width outside range of Worksheet.MIN_ROW_HEIGHT and Worksheet.MAX_ROW_HEIGHT will be replaced by MIN or MAX.
-		/// </summary>
-		public bool EnforceAllowedRowHeight { get; set; } = true;
+        /// <summary>
+        /// If false, Row width outside range of Worksheet.MIN_ROW_HEIGHT and Worksheet.MAX_ROW_HEIGHT will be replaced by MIN or MAX.
+        /// </summary>
+        public bool EnforceAllowedRowHeight { get; set; } = true;
 
         /// <summary>
         /// Default format if DateTime values are cast to strings
